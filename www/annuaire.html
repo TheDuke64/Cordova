@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset ="utf-8" />
+		<link rel="stylesheet" href="style.css" />
+		<script src="js/annuaire.js"></script>
+		<title>Page du formulaire</title>
+
+	</head>
+
+	<body>
+		<div id="conteneur">
+
+			<h2>Annuaire Téléphonique </h2>
+
+			
+
+			<!--<form enctype="multipart/form-data" method="post" name="contactinfo">-->
+				<div class="quickadd"><button id="QuickAdd">+ Ajouter</button></div>
+				<div class="quickaddForm">
+
+					<label for="prenom">Prénom</label><input type="text" name="prenom" id="prenom" placeholder="Prénom" class ="formFields"/><br/>
+					<label for="nom">Nom</label><input type="text" name="nom" id="nom" placeholder="Nom" class ="formFields"/><br/>
+					<label for="adresse1">Adresse</label><input type="text" id="adress1" placeholder="Adresse" class ="formFields" /><br/>
+					<label for="adresse2">Complement</label><input type="text" id="adress2" placeholder="Complément d'adresse" class ="formFields" /><br/>
+					<label for="code_postal">Code Postal</label><input type="text" id="cp" placeholder="Code postal" class ="formFields" /><br/>
+					<label for="ville">Ville</label><input type="text" name="ville" id="ville" class ="formFields" placeholder="Ville" maxlength="35"/><br/>
+					<label for="telfixe">Tél. fixe  </label><input type="tel" name="telfixe" placeholder="Téléphone Fixe" id="telfixe" class ="formFields" maxlength="35" /><br/>
+					<label for="telport">Tél. port. </label><input type="tel" name="telport" placeholder="Téléphone portable" id="telport" class ="formFields" maxlength="35"/><br/>
+						<br/><br/>
+						<button id="Add">Valider</button>
+						<button id="Cancel">Annuler</button>
+			<!--	<p class="envoyer"><input type="submit" value="Envoyer" /></p> -->
+			</div>
+		</div>
+		
+			<div class="addbook">
+
+			</div>
+			<!--</form>-->
+		</div>
+	</body>
+
+</html>
