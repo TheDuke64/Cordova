@@ -38,7 +38,7 @@ var app = {
 
         listeningElement.setAttribute('style', 'display:none;');
         receivedElement.setAttribute('style', 'display:block;');
-
+        Annuaire Téléphonique
         console.log('Received Event: ' + id);
     }
 };
